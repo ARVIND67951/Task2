@@ -1,0 +1,395 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.actions {
+    float: right;
+}
+
+.actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.hero ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.hero li {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.hero img {
+    float: right;
+    width: 50%;
+    margin-left: 30px;
+}
+
+/* Why Choose Us Section Styles */
+.why-choose-us {
+    padding: 50px 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Get the Best Linux VPS Section Styles */
+.get-the-best-linux-vps {
+    padding: 50px 0;
+}
+
+.server-plans {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.server-plans .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.server-plans .card {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.server-plans .card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.server-plans .card li {
+    margin-bottom: 10px;
+}
+
+.server-plans .discount {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Features Section Styles */
+.features {
+    padding: 50px 0;
+}
+
+.features .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.features .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.features .card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.features .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features .card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Operating Systems Section Styles */
+.operating-systems {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.operating-systems .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.operating-systems .card {
+    text-align: center;
+}
+
+.operating-systems .card img {
+    width: 80px;
+}
+
+/* FAQs Section Styles */
+.faqs {
+    padding: 50px 0;
+}
+
+.faqs .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.faqs .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faqs .card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faqs .card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Our Partners Section Styles */
+.our-partners {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.our-partners .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.our-partners .card {
+    text-align: center;
+}
+
+.our-partners .card img {
+    width: 100%;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+footer .card {
+    text-align: left;
+}
+
+footer .card ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .card li {
+    margin-bottom: 10px;
+}
+
+footer .card a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer .payment-methods {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+footer .payment-methods li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .payment-methods img {
+    width: 40px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero img {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
